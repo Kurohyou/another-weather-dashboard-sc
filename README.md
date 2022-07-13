@@ -88,6 +88,7 @@ This readme template adapted from the [Best-README-Template](https://github.com/
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/Kurohyou/another-weather-dashboard-sc.svg?style=flat
 [contributors-url]: https://github.com/Kurohyou/another-weather-dashboard-sc/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Kurohyou/another-weather-dashboard-sc.svg?style=flat
