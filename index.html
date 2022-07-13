@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&amp;family=Exo+2:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Another Weather Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <h1>Another Weather Dashboard</h1>
+    </header>
+    <main>
+      <nav class="menu">
+        <div class="search">
+          <input type="text" name="search" placeholder="Enter a city name" list="possibles" autocomplete="off">
+          <datalist id="possibles"></datalist>
+        </div>
+        <div class="previous-results">
+          <ul id="prev-list"></ul>
+        </div>
+      </nav>
+      <div class="content">
+        <ul id="content-target">
+          <li class="current card">
+            <p>Search for a city using the search input in the top right, or select a previously viewed city from the list on the left.</p>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer><span>copyright &copy; 2022; Kurohyou Studios</span></footer>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.0.1/build/global/luxon.min.js" integrity="sha256-uQ0RrcqAQ8NxzNqZH11eXx3qFLAgwEgSQN1V0N1+UlM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  </body>
+  <script src="assets/javascript/script.js"> </script>
+</html>

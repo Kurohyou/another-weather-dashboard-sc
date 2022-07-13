@@ -8,8 +8,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+<!-- Image adapted from https://pxhere.com/en/photo/1598447 under creative commons license -->
 <a href="https://github.com/Kurohyou/another-weather-dashboard-sc">
-<img src="images/logo.png" alt="Logo" width="80" height="80">
+<img src="assets/images/logo.png" alt="Logo" width="80" height="80">
 </a>
 <h3 align="center">Another Weather Dashboard</h3>
 <p align="center">
@@ -46,7 +47,7 @@ A basic weather dashboard for getting the current and 5-day forecasts for cities
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-[![Product Name Screen Shot][product-screenshot]]
+![Product Name Screen Shot][product-screenshot]
 Created as part of the University of Utah Full Stack Bootcamp.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -56,6 +57,7 @@ Created as part of the University of Utah Full Stack Bootcamp.
 - CSS
   - SCSS
 - Javascript
+  - Jquery
   - OpenWeather One Call API
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- GETTING STARTED -->
@@ -80,6 +82,7 @@ Project Link: [https://github.com/Kurohyou/another-weather-dashboard-sc](https:/
 ## Acknowledgments
 - University of Utah Full Stack Bootcamp
 - OpenWeather One Call API
+- Logo adapted from https://pxhere.com/en/photo/1598447 under creative commons license
 
 This readme template adapted from the [Best-README-Template](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md) by [Othneil Drew](https://github.com/othneildrew).
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -99,4 +102,4 @@ This readme template adapted from the [Best-README-Template](https://github.com/
 [linkedin-url]: https://linkedin.com/in/Kurohyou
 [patreon-shield]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dkurohyoustudios%26type%3Dpatrons&style=flat
 [patreon-url]: https://patreon.com/kurohyoustudios
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: assets/images/screenshot.png
