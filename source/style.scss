@@ -57,6 +57,10 @@ main{
 h1,h2,h3,button,.subhead{
   font-family:Aldrich,sans-serif;
 }
+.subhead{
+  font-size:1.2rem;
+  margin-bottom:var(--tiny-gap);
+}
 //Search
 .search{
   display:grid;
