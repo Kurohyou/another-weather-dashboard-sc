@@ -6,7 +6,6 @@
   const ak = '3e0bc2bc17306f8b9a632d42c1b9d1c7';
   //html elements
   const $datalist = $('#possibles');
-  const $searchForm = $('.search');
   const $searchInput = $('input[name="search"]');
   const $prevList = $('#prev-list');
   const $contentTarget = $('#content-target');
@@ -104,7 +103,7 @@
    * @returns {HTMLDOMElement} image - The image that is created from the weather information.
    */
   const createWeatherImage = function(weatherObj){
-    return $(`<img src="http://openweathermap.org/img/wn/${weatherObj.icon}@2x.png" alt="${weatherObj.description}">`);
+    return $(`<img src="https://openweathermap.org/img/wn/${weatherObj.icon}@2x.png" alt="${weatherObj.description}">`);
   };
 
   //Weather property specific display outputs
@@ -205,7 +204,7 @@
       return;
     }
     
-    const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${searchText}&limit=5&appid=${ak}`);
+    const response = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${searchText}&limit=5&appid=${ak}`);
     const results = await response.json();
     possibleCities.length = 0;
     $datalist.empty();
@@ -237,7 +236,7 @@
   $prevList.on('click','button',async (event)=>{
     const $button = $(event.target);
     const name = $button.text();
-    const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${name}&limit=5&appid=${ak}`);
+    const response = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${name}&limit=5&appid=${ak}`);
     const selectedCity = await response.json();
     cityFound(selectedCity[0]);
   });
