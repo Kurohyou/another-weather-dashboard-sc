@@ -72,7 +72,7 @@ Distributed under the MIT License. See [LICENSE.txt](LICENSE.txt) for more infor
 <!-- CONTACT -->
 
 ## Contact
-Your Name - [@Kurohyou](https://twitter.com/Kurohyou) - scaseydv@gmail.com
+Scott Casey - [@Kurohyoustudios](https://twitter.com/Kurohyoustudios) - scaseydv@gmail.com
 Project Link: [https://github.com/Kurohyou/another-weather-dashboard-sc](https://github.com/Kurohyou/another-weather-dashboard-sc)
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- ACKNOWLEDGMENTS -->
