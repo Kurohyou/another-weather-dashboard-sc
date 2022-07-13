@@ -44,8 +44,8 @@
     const result = await response.json();
     console.log('result',result);
     $contentTarget.empty();
+    result.daily.shift();
     result.daily.length = 5;
-
     [result.current,...result.daily].forEach((forecast,index) =>{
       const forecastDate = DateTime
         .fromSeconds(forecast.dt)
